@@ -5,10 +5,6 @@ brew install git-delta # better diff
 
 echo
 echo "Setting global Git configurations"
-# TODO: Parameterise the name and email via a .env file
-git config --global user.name "sebykrueger"
-git config --global user.email "email@sebkrueger.info"
-
 git config --global core.editor "$(brew --prefix)/bin/vim"
 git config --global transfer.fsckobjects true
 git config --global core.autocrlf input
@@ -22,3 +18,6 @@ git config --global interactive.diffFilter 'delta --color-only --features=intera
 mkdir -p ~/.git_templates
 git config --global init.templateDir ~/.git_templates
 echo "ref: refs/heads/main" > ~/.git_templates/HEAD
+
+# Install GnuPG to enable PGP-signing commits.
+brew install gnupg
