@@ -4,7 +4,7 @@ This project automates the process of setting up a new Mac OS X software develop
 
 ## Goals
 
-The primary goal of this project is to give people a simple script they can run to make their Mac OS X machine prepared and standardized for working on software development projects, especially those common at Flyttness AI.
+The primary goal of this project is to give people a simple script they can run to make their Mac OS X machine prepared and standardized for working on software development projects, especially those common at Flyttness.
 
 ## Why did we do it this way?
 
