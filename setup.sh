@@ -20,3 +20,4 @@ source ${WORK_DIR}/scripts/common/developer-utilities.sh
 source ${WORK_DIR}/scripts/common/vim-configurations.sh
 source ${WORK_DIR}/scripts/common/applications-common.sh
 source ${WORK_DIR}/scripts/common/unix.sh
+source ${WORK_DIR}/scripts/common/configuration-osx.sh
