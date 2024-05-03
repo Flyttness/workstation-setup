@@ -1,11 +1,13 @@
 echo
 echo "Installing Git and associated tools"
 brew install git
-
 brew install git-delta    # better diff
 
 echo
 echo "Setting global Git configurations"
+git config --global user.name "sebykrueger"
+git config --global user.email "email@sebkrueger.info"
+
 git config --global core.editor /opt/homebrew/bin/vim
 git config --global transfer.fsckobjects true
 git config --global core.autocrlf input
