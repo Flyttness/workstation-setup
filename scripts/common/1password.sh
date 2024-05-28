@@ -1,3 +1,6 @@
+brew install --cask 1password
+brew install 1password-cli
+
 # https://developer.1password.com/docs/ssh/get-started/#step-4-configure-your-ssh-or-git-client
 
 # Agent path that's easier to type, create a symlink for ~/.1password/agent.sock

@@ -32,7 +32,6 @@ brew install --cask discord
 brew install --cask proton-mail
 
 # Security
-brew install --cask 1password
 brew install --cask nordvpn
 
 # CLI Tools
