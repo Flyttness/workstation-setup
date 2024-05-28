@@ -23,4 +23,5 @@ source ${WORK_DIR}/scripts/common/unix.sh
 source ${WORK_DIR}/scripts/common/configuration-osx.sh
 source ${WORK_DIR}/scripts/common/aws.sh
 source ${WORK_DIR}/scripts/common/azure.sh
+source ${WORK_DIR}/scripts/common/1password.sh
 source ${WORK_DIR}/scripts/common/final.sh
