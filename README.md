@@ -40,8 +40,11 @@ mkdir -p ~/Code/github.com/flyttness &&
 Within `~/Code/github.com/flyttness/workstation-setup`, run the following:
 
 ```shell
+./bootstrap.sh
 ./setup.sh
 ```
+
+**Note:** `bootstrap.sh` must be run first as it installs Homebrew and git, which are required dependencies for the main setup script.
 
 **Warning: this tool might overwrite existing configurations.**
 

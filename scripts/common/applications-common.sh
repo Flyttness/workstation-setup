@@ -12,10 +12,10 @@ brew install --cask spotify
 brew install --cask flycut
 brew install --cask wireshark
 brew install --cask snagit
-brew install --cask rectangle-pro
 
 # Terminals
 brew install --cask iterm2
+brew install --cask itermai
 
 # Browsers
 brew install --cask google-chrome

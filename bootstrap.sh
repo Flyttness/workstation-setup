@@ -8,3 +8,4 @@ else
 fi
 
 brew install git
+git clone https://github.com/flyttness/workstation-setup.git

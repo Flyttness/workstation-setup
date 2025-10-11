@@ -1,15 +1,9 @@
 #!/usr/bin/env bash
 
-WORK_DIR="$(dirname "$0")"
-
-# Ask for the administrator password upfront
-sudo -v
-
-# Keep sudo alive
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+export WORK_DIR="$(dirname "$0")"
 
 # Note: Homebrew needs to be set up first
-source ${WORK_DIR}/scripts/common/homebrew.sh
+#source ${WORK_DIR}/scripts/common/homebrew.sh
 
 # Install everything else
 source ${WORK_DIR}/scripts/common/oh-my-zsh.sh
